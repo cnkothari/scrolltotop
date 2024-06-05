@@ -1,0 +1,36 @@
+// /**
+// * CNTechnoLabs
+// * Copyright (C) 2023 CNTechnoLabs 
+// *
+// * @category  CNTechnoLabs
+// * @package   CNTechnoLabs_ScrollTop
+// * @copyright Copyright (c) 2023 CNTechnoLabs
+// * @license   http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+// * @author    CNTechnoLabs
+// */
+
+div#scrolltop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+.arrowup {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: block;
+    padding: 3px;
+    height: 9px;
+    width: 10px;
+    float: right;
+
+}
